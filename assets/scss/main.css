@@ -153,6 +153,10 @@ a.current {
 .blog-post p {
   margin: 0;
 }
+.blog-post h3 a,
+.blog-post p a {
+  color: inherit;
+}
 .blog-post .thumbnail {
   max-height: 170px;
 }

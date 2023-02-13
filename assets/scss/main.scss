@@ -167,6 +167,9 @@ a {
     h3,
     p {
         margin: 0;
+        a {
+         color: inherit;   
+        }
     }
     .thumbnail {
         max-height: 170px;
