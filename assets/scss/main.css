@@ -36,11 +36,11 @@ h1 {
   font-weight: 800;
 }
 
+a:hover, a:focus {
+  color: hsl(5deg, 85%, 63%) !important;
+}
 a:visited {
   color: inherit;
-}
-a:hover, a:focus {
-  color: hsl(5deg, 85%, 63%);
 }
 a.current {
   border-bottom: 3px solid hsl(35deg, 77%, 62%);
@@ -67,6 +67,7 @@ a.current {
 }
 .nav-main ul a {
   padding-bottom: 0.2em;
+  color: hsl(236deg, 13%, 42%);
 }
 
 .post-desc {
@@ -115,6 +116,9 @@ a.current {
 }
 .featured .post-featured {
   flex: 1;
+}
+.featured .post-featured .content a:hover {
+  color: hsl(36deg, 100%, 99%) !important;
 }
 .featured .latest-news {
   flex: 0.45;

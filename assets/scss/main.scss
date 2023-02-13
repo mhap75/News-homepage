@@ -48,12 +48,12 @@ h1 {
 }
 
 a {
-    &:visited {
-        color: inherit;
-    }
     &:hover,
     &:focus {
-        color: $PriSoftred;
+        color: $PriSoftred !important;
+    }
+    &:visited {
+        color: inherit;
     }
     &.current {
         border-bottom: 3px solid $PriSoftorange;
@@ -80,6 +80,7 @@ a {
     color: $NeuDarkgrayishblue;
     a {
         padding-bottom: 0.2em;
+        color: $NeuDarkgrayishblue;
     }
 }
 
@@ -131,6 +132,9 @@ a {
     margin-bottom: 5rem;
     .post-featured {
         flex: 1;
+        .content a:hover {
+            color: $NeuOff-white !important;
+        }
     }
     .latest-news {
         flex: 0.45;
