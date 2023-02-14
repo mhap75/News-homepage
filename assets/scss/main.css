@@ -42,7 +42,7 @@ a:hover, a:focus {
 a:visited {
   color: inherit;
 }
-a.current {
+a[aria-current=page] {
   border-bottom: 3px solid hsl(35deg, 77%, 62%);
 }
 

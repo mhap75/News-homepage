@@ -55,7 +55,7 @@ a {
     &:visited {
         color: inherit;
     }
-    &.current {
+    &[aria-current="page"] {
         border-bottom: 3px solid $PriSoftorange;
     }
 }
